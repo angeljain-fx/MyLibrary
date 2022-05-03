@@ -42,6 +42,6 @@ router.post('/', async (req, res) => {
         errorMessage: 'Error creating Author'
       })
     }
-  })
+})
   
-  module.exports = router
+module.exports = router;
